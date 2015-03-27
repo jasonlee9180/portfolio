@@ -1025,7 +1025,7 @@
 /* opens desktop styles */ @media only screen and (min-width: 802px) {
 
 	body {
-		width: 100%;
+		max-width: 1917px;
 		margin: 0 auto;
 	}
 
@@ -1078,7 +1078,7 @@
 
 	#mainNav {
 		width: 90%;
-		font-size: 90%;
+		font-size: 1em;
 		padding-bottom: 0;
 		margin-bottom: 1em;
 	}
