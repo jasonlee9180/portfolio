@@ -7,11 +7,7 @@
 		font-family: 'colonnaMT';
 		src: url(../fonts/colonna.ttf);
 	}
-	
-	@font-face {
-		font-family: 'colonelRegular';
-		src: url(../fonts/colonel.ttf);
-	}
+
 
 /* Global styles 
 ---------------------------------------------------------------------------------------------*/
@@ -78,7 +74,6 @@
 		}
 		
 	p{
-		font-size: 1.3em;
 		font-weight: regular;
 		font-style: none;
 		padding: 1em auto;
@@ -153,8 +148,7 @@
 	}
 
 	body {
-		font: 100% 'colonelRegular', Helvetica, serif;
-		letter-spacing: 2px;
+		font: 100% arial, Helvetica, serif;
 		line-height: 1.5em;
 		background: #fff;
 		color: #000;
@@ -168,6 +162,8 @@
 
 	nav ul {
 		list-style: none;
+		font-size: .9em;
+		margin-left: 6px;
 	}
 
 /* header styles */
@@ -202,8 +198,8 @@
 
 	#mainNav {
 		overflow: hidden;
-		margin-left: 1.5em;
-		margin-bottom: 1.5em;
+		margin-left: 1em;
+		margin-bottom: .85em;
 		text-transform: uppercase;
 		font-weight: bold;
 	}
@@ -223,13 +219,6 @@
 		cursor: default;
 	}
 
-/* mission styles */
-
-	.mission h1 {
-		width: 90%;
-		margin-left: 0.5em;
-	}
-
 /* article styles */
 
 	article section {
@@ -238,7 +227,7 @@
 	}
 
 	article h1 {
-		font: 1.8em 'colonelRegular', Helvetica, serif;
+		font: 1.8em arial, Helvetica, serif;
 		letter-spacing: 2px;
 		color: #981e32;
 		margin-bottom: .5em;
@@ -300,7 +289,7 @@
 /* aside styles */
 
 	aside h2 {
-		font-family: 'colonelRegular', Helvetica, serif;
+		font-family: arial, Helvetica, serif;
 		letter-spacing: 2px;
 		color: #0087be;
 	}
@@ -471,17 +460,6 @@
 	.mission {
 		width: 90%;
 		margin: 0 auto;
-	}
-
-	.mission h1 {
-		font-weight: bold;
-		color: #0087be;
-		font-family: arial, Helvetica, serif;
-		letter-spacing: 2px;
-		font-size: 1em;
-		text-align: left;
-		line-height: 1.3em;
-		margin-bottom: 0.5em;
 	}
 
 	.mission p {
@@ -725,7 +703,7 @@
 		width: 90%;
 		font-size: 1.1em;
 		letter-spacing: 2px;
-		margin-bottom: 1em;
+		margin-bottom: .8em;
 	}
 
 	#mainNav a, #mainNav h3 {
@@ -781,7 +759,7 @@
 		white-space: nowrap;
 		color: #fff;
 		text-align: left;
-		font-size: 1.1em;
+		font-size: 1em;
 	}
 
 	#mainNav ul.submenu li:last-child a {
@@ -797,37 +775,21 @@
 	.mission {
 		padding-left: 3.9%;
 		overflow: hidden;
-		background: url(../images/wsuv.jpg) 50% no-repeat;
+		background: url(../images/campus2.jpg) 50% no-repeat;
 		position: relative;
 		background-size: cover;
-	}
-
-	.mission h1 {
-		font-size: 1.1em;
-		letter-spacing: 2px;
-		line-height: 1.3em;
-		color: #fff;
-		background: rgba(0, 0, 0, .7);
-		font-family: arial, Helvetica, serif;
-		letter-spacing: 2px;
-		text-shadow: 2px 2px 2px #000;
-	    padding-top: 29px;
-	    padding-bottom: 29px;
-	    padding-left: 16px;
-	    margin-left: 6px;
 	}
 
 	.mission p {
 	  width: 90%;
 	  font-size: 1.1em;
-	  letter-spacing: 2px;
 	  line-height: 1.3em;
 	  margin: 0 auto;
 	  margin-top: 32px;
 	  margin-left: -4%;
 	  color: #fff;
-	  background: rgba(0, 60, 105, .7);
-	  text-shadow: 2px 2px 2px #000;
+	  background: rgba(0, 0, 0, .3);
+	  text-shadow: 2px 1px 1px #000;
 	  padding: 20px 7%;
 	}
 
@@ -854,7 +816,7 @@
 		}
 
 	article h2 {
-		font: 2.4em 'colonelRegular', Helvetica, serif;
+		font: 2.4em arial, Helvetica, serif;
 		letter-spacing: 2px;
 		float: left;
 		clear: left;
@@ -1069,7 +1031,7 @@
 	}
 
 	header h2 {
-		font-family: 'colonelRegular', Helvetica, serif;
+		font-family: arial, Helvetica, serif;
 		letter-spacing: 2px;
 		font-style: italic;
 		font-weight: normal;
@@ -1100,13 +1062,12 @@
 
 	#mainNav {
 		width: 90%;
-		font-size: 1em;
+		font-size: 1.2em;
 		padding-bottom: 0;
-		margin-bottom: 1em;
 	}
 
 	#mainNav a, #mainNav h3 {
-		font-size: 1.2em;
+		font-size: 1em;
 		text-align: left;
 		color: black;
 		display: block;
@@ -1162,7 +1123,7 @@
 		white-space: nowrap;
 		color: #fff;
 		text-align: left;
-		font-size: 1.1em;
+		font-size: 1em;
 	}
 
 	#mainNav ul.submenu li:last-child a {
@@ -1172,39 +1133,24 @@
 /* mission styles */
 
 	.mission {
-		height: 350px;
+		height: 400px;
 		padding-left: .5em;
 		overflow: hidden;
-		background: url(../images/wsuv.jpg) 50% no-repeat;
+		background: url(../images/campus2.jpg) 50% no-repeat;
 		margin-bottom: 1em;
 		position: relative;
 		background-size: cover;
 	}
 
-	.mission h1 {
-		font-size: 1.3em;
-		line-height: 1.3em;
-		width: 67.8%;
-		padding-left: 2%;
-		float: left;
-		font-family: arial, Helvetica, serif;
-		letter-spacing: 2px;
-		color: #fff;
-		background: rgba(0, 0, 0, .5);
-		text-shadow: 2px 2px 2px #000;
-		padding-top: 29px;
-		padding-bottom: 29px;
-	}
-
 	.mission p {
-		width: 21%;
+		width: 23%;
 		padding: 2% 2% 0;
-		height: 350px;
-		font-size: 1.3em;
+		height: 400px;
+		font-size: 1.1em;
 		font-family: arial, Helvetica, serif;
 		color: #fff;
-		background: rgba(0, 135, 190, .3);
-		text-shadow: 2px 2px 2px #000;
+		background: rgba(0, 0, 0, .3);
+		text-shadow: 2px 1px 1px #000;
 		position: absolute;
 		top: 0;
 		right: 0;
@@ -1229,10 +1175,11 @@
 	}
 
 	article h2 {
-		font: 2.8em 'colonelRegular', Helvetica, serif;
-		letter-spacing: 2px;
+		font-size: 2.8em;
+		font-family: arial, Helvetica, serif;
 		float: left;
-		margin-bottom: 0.2em;
+		margin-top: 0.3em;
+		margin-bottom: 0.8em;
 	}
 	
 	article h3 {
@@ -1265,7 +1212,6 @@
 		font-family: arial, Helvetica, serif;
 		margin-top: 1em;
 		margin-bottom: 1em;
-		letter-spacing: 2px;
 	}
 
 	.managementInfo .preview {
@@ -1320,7 +1266,7 @@
 	}
 
 	aside h2 {
-		font-size: 1.3em;
+		font-size: 1em;
 		margin: 1em 0 .8em;
 		padding-top: .8em;
 		border-top: 2px solid #000;
