@@ -61,7 +61,6 @@
 		padding-bottom: 56.25%;
 		padding-top: 20px;
 		height: 0;
-		margin-bottom: .5em;
 		}
 		
 	.video iframe{
@@ -70,7 +69,7 @@
 		top: 0;
 		left: 0;
 		width: 100%;
-		height: 100%;
+		height: 90%;
 		}
 		
 	p{
@@ -199,7 +198,7 @@
 	#mainNav {
 		overflow: hidden;
 		margin-left: 1em;
-		margin-bottom: .85em;
+		margin-bottom: .8em;
 		text-transform: uppercase;
 		font-weight: bold;
 	}
@@ -230,7 +229,7 @@
 		font: 1.8em arial, Helvetica, serif;
 		letter-spacing: 2px;
 		color: #981e32;
-		margin-bottom: .5em;
+		margin-bottom: .6em;
 	}
 
 	article h2 a {
@@ -512,7 +511,6 @@
 	.caption {
 		font-size: 1em;
 		margin-top: 1em;
-		letter-spacing: 2px;
 	}
 
 	.photos img {
@@ -702,7 +700,6 @@
 	#mainNav {
 		width: 90%;
 		font-size: 1.1em;
-		letter-spacing: 2px;
 		margin-bottom: .8em;
 	}
 
@@ -806,7 +803,6 @@
 		  overflow: hidden;
 		  position: relative;
 		  padding-bottom: 1em;
-		  padding-top: 1em;
 	}
 
 	article h1 {
@@ -817,7 +813,6 @@
 
 	article h2 {
 		font: 2.4em arial, Helvetica, serif;
-		letter-spacing: 2px;
 		float: left;
 		clear: left;
 		margin-bottom: 0.5em;
@@ -848,14 +843,14 @@
 		font-family: arial, Helvetica, serif;
 		width: 40%;
 		clear: both;
-		letter-spacing: 2px;
 	}
 	
 	article h3.caption {
 		font-size: 1em;
 		width: 100%;
 		clear: both;
-		letter-spacing: 2px;
+		margin-top: 1em;
+		padding-top: 1.5em;
 	}
 
 	article .preview {
@@ -995,8 +990,8 @@
 	margin: 0 auto;
 	top: 126px;
 	left: 0;
-	width: 100%;
-	height: 60%;
+	width: 75%;
+	height: 70%;
 	}
 	
 	.gfm {
@@ -1179,7 +1174,7 @@
 		font-family: arial, Helvetica, serif;
 		float: left;
 		margin-top: 0.3em;
-		margin-bottom: 0.8em;
+		margin-bottom: 0.6em;
 	}
 	
 	article h3 {
@@ -1212,6 +1207,7 @@
 		font-family: arial, Helvetica, serif;
 		margin-top: 1em;
 		margin-bottom: 1em;
+		padding-bottom: 1em;
 	}
 
 	.managementInfo .preview {
@@ -1327,7 +1323,7 @@
 	top: 70px;
 	left: 0;
 	width: 100%;
-	height: 85%;
+	height: 97%;
 	}
 
 } /* closes desktop styles */
